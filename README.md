@@ -24,7 +24,7 @@ The multiple sequence alignments and phylogenetic trees generated and analysed d
 
 
 ## Analysis scripts
-to download and process sequences, build trees, calculate summary statistics and parse FungalTraits data 
+All bioinformatic code used to download and process sequences, build trees, and calculate summary statistics
 
 ### 1. Sequence Download
 The search strings used to download sequences from NCBI can be found here: `./search_strings.txt`
@@ -56,4 +56,4 @@ The search strings used to download sequences from NCBI can be found here: `./se
 
 ### 7. Calculate alignment and gene summary statistics
 1. `./iqtree_genetrees.sh` builds gene trees and calculate site and gene concordance compared to species tree
-2. `./quartet_scores.sh` calculates quartet scores and outputs results in table
+3. `./quartet_scores.sh` calculates quartet scores and outputs results in table
