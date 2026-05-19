@@ -56,4 +56,5 @@ The search strings used to download sequences from NCBI can be found here: `./se
 
 ### 7. Calculate alignment and gene summary statistics
 1. `./iqtree_genetrees.sh` builds gene trees and calculate site and gene concordance compared to species tree
+2. `./astral_tree_prep.R` formats species tree to match taxa headers in gene trees
 3. `./quartet_scores.sh` calculates quartet scores and outputs results in table
