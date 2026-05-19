@@ -1,0 +1,17 @@
+#RPB1
+#Download all RPB1 Ophiostomatales from NCBI, exclude genome scaffolds max 6000bp using the following search string
+("RPB1"[All Fields] OR "RNA polymerase II largest subunit"[All Fields] OR "RNA polymerase II largest"[All Fields] AND ("Ophiostomatales"[Organism] OR Ophiostomatales[All Fields]))) AND ("0"[SLEN] : "6000"[SLEN])
+
+#RPB2
+("RPB2"[All Fields] OR "RNA polymerase II second largest subunit"[All Fields] OR "RNA polymerase II second largest"[All Fields] AND ("Ophiostomatales"[Organism] OR Ophiostomatales[All Fields]))) AND ("0"[SLEN] : "6000"[SLEN])
+
+#Beta tubulin
+("Btub"[All Fields] OR "Btubulin"[All Fields] OR "B-tubulin"[All Fields] OR "B-tub"[All Fields] OR "beta-tubulin"[All Fields] OR "beta-tub"[All Fields]) AND ("Ophiostomatales"[Organism] OR Ophiostomatales[All Fields]))) AND ("0"[SLEN] : "6000"[SLEN])
+#removed tubC paralogues from https://www.jstage.jst.go.jp/article/mycosci/61/6/61_MYC61282/_pdf/-char/en
+
+#EF1-a
+("EF1"[All Fields] OR "EF1A"[All Fields] OR "eEF1A"[All Fields] OR "elongation factor 1"[All Fields] OR "elongation factor 1 alpha"[All Fields]) AND ("Ophiostomatales"[Organism] OR Ophiostomatales[All Fields]))) AND ("0"[SLEN] : "6000"[SLEN]) 
+
+#rRNA operon
+Ophiostomatales[Organism] AND (rRNA OR ITS OR "internal transcribed spacer" OR 18S OR SSU OR 28S OR LSU) NOT (genome OR chromosome OR scaffold OR contig OR WGS OR "whole genome shotgun") NOT (uncultured OR unidentified OR "environmental sample" OR metagenome) 
+
