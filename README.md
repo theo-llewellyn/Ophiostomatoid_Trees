@@ -58,3 +58,6 @@ The search strings used to download sequences from NCBI can be found here: `./se
 1. `./iqtree_genetrees.sh` builds gene trees and calculate site and gene concordance compared to species tree
 2. `./astral_tree_prep.R` formats species tree to match taxa headers in gene trees
 3. `./quartet_scores.sh` calculates quartet scores and outputs results in table
+
+### 8. Build supplementary tables with accession codes and sequence names
+1. `python local_fasta_search.py Microascales_rRNA_PCGs_concat_msa_woutgroups_nosp_nocontam_ITS-out.fas ../ITSall.fasta output_ITS.csv` example for one gene, this is then repeat for each locus and the tables are concatenated
