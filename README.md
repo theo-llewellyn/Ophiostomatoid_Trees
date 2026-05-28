@@ -44,7 +44,7 @@ The search strings used to download sequences from NCBI can be found here: `./se
 1. `./standardise_names.sh` standardise and rename taxa header to SPECIES_CULTURECODE
 2. `./concatenate_summarise.sh` concatenate sequences and summarise in tables
 3. `Rscript alignment_summary_tables.R` make table summarising which genes are present for which taxa
-4. `./sequence_selecter.sh` select best sequence based on gene coverage and length. requires sequence_selecter_new.py python script.
+4. `./sequence_selector.sh` select best sequence based on gene coverage and length. requires sequence_selecter_new.py python script.
 
 ### 5. Add outgroups
 `cd outgroups`
