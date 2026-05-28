@@ -2,7 +2,7 @@
 sed "s/ /_/g;s/\./_/g;s/\'//g" Ophiostomatales_rRNA_PCGs_concat_msa.fasta > Ophiostomatales_rRNA_PCGs_concat_renamed.msa.fasta
 
 #select best of each species, using first gene coverage and then percentage gaps missing to break ties
-python sequence_selecter_new.py
+python sequence_selector_new.py
 
 cp Ophiostomatales_rRNA_PGCs_concat_msa_partition_ITSas1.txt Ophiostomatales_selected_sequences.tsv Ophiostomatales_selected_sequences.fasta > selected_representatives
 cd selected_representatives
